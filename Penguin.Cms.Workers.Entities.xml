@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Penguin.Cms.Workers.Entities</name>
+    </assembly>
+    <members>
+        <member name="T:Penguin.Cms.Workers.Entities.WorkerCompletion">
+            <summary>
+            A class representing an instance of a worker completing its work
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Workers.Entities.WorkerCompletion.AuditLogChanges">
+            <summary>
+            Worker completions are immutable and should not need to be audited
+            </summary>
+        </member>
+        <member name="P:Penguin.Cms.Workers.Entities.WorkerCompletion.Name">
+            <summary>
+            The name of the worker this completion is for
+            </summary>
+        </member>
+    </members>
+</doc>
