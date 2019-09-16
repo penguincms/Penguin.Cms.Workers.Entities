@@ -7,7 +7,6 @@ namespace Penguin.Cms.Workers.Entities
     /// </summary>
     public class WorkerCompletion : AuditableEntity
     {
-        #region Properties
         /// <summary>
         /// Worker completions are immutable and should not need to be audited
         /// </summary>
@@ -17,7 +16,5 @@ namespace Penguin.Cms.Workers.Entities
         /// The name of the worker this completion is for
         /// </summary>
         public string Name { get; set; }
-
-        #endregion Properties
     }
 }
