@@ -7,7 +7,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Workers.Entities</PackageProjectUrl>
     <PackageIconUrl>http://www.penguinms.com/client/images/pg.png</PackageIconUrl>
-    <Version>2.0.0</Version>
+    <Version>2.0.2</Version>
 	<IncludeSymbols>true</IncludeSymbols>    
 <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Description>Contains a worker completion class intended to hold metadata about penguin.workers statuses</Description>
@@ -18,7 +18,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Entities" Version="2.0.0" />
+    <PackageReference Include="Penguin.Cms.Auditing.Abstractions" Version="1.0.0" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.2" />
   </ItemGroup>
 
  <ItemGroup>
