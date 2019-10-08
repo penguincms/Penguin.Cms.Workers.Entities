@@ -1,4 +1,4 @@
-﻿using Penguin.Cms.Auditing.Abstractions;
+﻿using Penguin.Auditing.Abstractions.Attributes;
 using Penguin.Cms.Entities;
 
 namespace Penguin.Cms.Workers.Entities
