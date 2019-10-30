@@ -4,14 +4,16 @@
     <PackageProjectUrl>https://github.com/penguincms/Penguin.Cms.Workers.Entities</PackageProjectUrl>
     <Version>2.0.2</Version>
     <Description>Contains a worker completion class intended to hold metadata about penguin.workers statuses</Description>
+    <AssemblyName>Penguin.Cms.Workers.Entities</AssemblyName>
+    <RootNamespace>Penguin.Cms.Workers.Entities</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9M1HHH" />
-    <PackageReference Include="Penguin.Auditing.Abstractions" Version="1.0.1-T9M1HHH" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9M2XAX" />
+    <PackageReference Include="Penguin.Auditing.Abstractions" Version="1.0.1-T9M2XAX" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
