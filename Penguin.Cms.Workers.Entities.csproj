@@ -6,6 +6,7 @@
     <Description>Contains a worker completion class intended to hold metadata about penguin.workers statuses</Description>
     <AssemblyName>Penguin.Cms.Workers.Entities</AssemblyName>
     <RootNamespace>Penguin.Cms.Workers.Entities</RootNamespace>
+    <DocumentationFile>Penguin.Cms.Workers.Entities.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.4">
