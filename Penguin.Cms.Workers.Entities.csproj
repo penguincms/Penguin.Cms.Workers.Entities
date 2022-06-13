@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;netstandard2.1;net5.0</TargetFrameworks>
-    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Cms.Workers.Entities</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Workers.Entities</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Contains a worker completion class intended to hold metadata about penguin.workers statuses</Description>
     <AssemblyName>Penguin.Cms.Workers.Entities</AssemblyName>
@@ -13,8 +13,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.6-TAX9354" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAX9354" />
+    <PackageReference Include="Penguin.Auditing.Abstractions" Version="5.0.6-TAZCES9" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAZCES9" />
   </ItemGroup>
   <Import Project="Penguin.Projects.Shared\Penguin.Projects.Shared.csproj" />
 </Project>
