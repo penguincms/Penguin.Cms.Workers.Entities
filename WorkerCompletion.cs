@@ -9,7 +9,6 @@ namespace Penguin.Cms.Workers.Entities
     [DontAuditChanges]
     public class WorkerCompletion : Entity
     {
-
         /// <summary>
         /// The name of the worker this completion is for
         /// </summary>
