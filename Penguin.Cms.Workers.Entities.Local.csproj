@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.1;net7.0</TargetFrameworks>
-    <PackageProjectUrl>https://github.com/PenguinCms/Penguin.Cms.Workers.Entities</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/PenguinCMS/Penguin.Cms.Workers.Entities</PackageProjectUrl>
     <Version>5.0.5</Version>
     <Description>Contains a worker completion class intended to hold metadata about penguin.workers statuses</Description>
     <AssemblyName>Penguin.Cms.Workers.Entities</AssemblyName>
